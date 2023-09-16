@@ -1,13 +1,16 @@
 {
   "name": "api-tarefas",
-  "type": "module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "description": "Desafio proposto pela @rocketseat, desenvolver uma API de tarefas.",
+  "main": "server.js",
   "scripts": {
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.0"
+  }
 }
